@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_theme_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ListActivity">
+
+    <include layout="@layout/layout_title_view" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Post type:"
+            android:textColor="@color/color_333333"
+            android:textSize="16dp" />
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:textColor="@color/black"
+                android:text="Lost" />
+
+            <RadioButton
+                android:id="@+id/rb_2"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Found" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+
+            android:text="Name"
+            android:textColor="@color/color_333333"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/edt_1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_bg_fff_4"
+
+            android:paddingLeft="12dp"
+            android:textColor="#333333"
+            android:textColorHint="#bbbbbb"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Phone"
+            android:textColor="@color/color_333333"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/edt_2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_bg_fff_4"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:paddingLeft="12dp"
+            android:textColor="#333333"
+            android:textColorHint="#bbbbbb"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Description"
+            android:textColor="@color/color_333333"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/edt_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_bg_fff_4"
+            android:gravity="start"
+            android:layout_marginTop="10dp"
+            android:minHeight="100dp"
+            android:padding="12dp"
+            android:textColor="#333333"
+            android:textColorHint="#bbbbbb"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Date"
+            android:textColor="@color/color_333333"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/edt_4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_bg_fff_4"
+            android:inputType="date"
+            android:paddingLeft="12dp"
+            android:textColor="#333333"
+            android:textColorHint="#bbbbbb"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Location"
+            android:textColor="@color/color_333333"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/edt_5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_bg_fff_4"
+
+            android:paddingLeft="12dp"
+            android:textColor="#333333"
+            android:textColorHint="#bbbbbb"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/shape_bg_2"
+            android:text="GET CURRENT LOCATION"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvCommit"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/shape_bg_2"
+            android:text="Save"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

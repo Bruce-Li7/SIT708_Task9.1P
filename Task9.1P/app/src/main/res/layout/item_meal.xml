@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:roundiv="http://schemas.android.com/tools"
+    android:id="@+id/layout_item"
+    android:layout_width="match_parent"
+    android:background="@drawable/shape_bg_fff_4"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="name"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="KIERS Laser Body Sculpture Laser Body Sculpture SlimmingKIERS Laser Body Sculpture Laser Body Sculpture SlimmingKIERS Laser Body Sculpture Laser Body Sculpture SlimmingKIERS Laser Body Sculpture Laser Body Sculpture SlimmingKIERS Laser Body Sculpture Laser Body Sculpture SlimmingKIERS Laser Body Sculpture Laser Body Sculpture Slimming "
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_content2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_content"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="KIERS Laser Body Sculpture Laser Body Sculpture SlimmingKIERS Laser Body Sculpture Laser Body Sculpture SlimmingKIERS Laser Body Sculpture Laser Body Sculpture SlimmingKIERS Laser Body Sculpture Laser Body Sculpture SlimmingKIERS Laser Body Sculpture Laser Body Sculpture SlimmingKIERS Laser Body Sculpture Laser Body Sculpture Slimming "
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/tv_content3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_content2"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:textColor="@color/black"
+        android:maxLines="1"
+        android:text="KIERS Laser Body Sculpture Laser Body Sculpture SlimmingKIERS Laser Body Sculpture Laser Body Sculpture SlimmingKIERS Laser Body Sculpture Laser Body Sculpture SlimmingKIERS Laser Body Sculpture Laser Body Sculpture SlimmingKIERS Laser Body Sculpture Laser Body Sculpture SlimmingKIERS Laser Body Sculpture Laser Body Sculpture Slimming "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_content4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_content3"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:textColor="@color/black"
+        android:maxLines="1"
+        android:text="KIERS Laser Body Sculpture Laser Body Sculpture SlimmingKIERS Laser Body Sculpture Laser Body Sculpture SlimmingKIERS Laser Body Sculpture Laser Body Sculpture SlimmingKIERS Laser Body Sculpture Laser Body Sculpture SlimmingKIERS Laser Body Sculpture Laser Body Sculpture SlimmingKIERS Laser Body Sculpture Laser Body Sculpture Slimming "
+        android:textSize="18sp" />
+
+</RelativeLayout>
+
+
